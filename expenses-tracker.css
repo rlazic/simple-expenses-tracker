@@ -1,0 +1,31 @@
+.container {
+  max-width: 400px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#total-expense {
+  font-weight: bold;
+}

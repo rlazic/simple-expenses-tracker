@@ -30,6 +30,10 @@ function addExpense(e) {
   updateExpenseList();
 }
 
+// Event listener for adding expense
+expenseForm.addEventListener('submit', addExpense);
+
+
 // Update the expense list
 function updateExpenseList() {
   expenseList.innerHTML = '';
@@ -46,7 +50,4 @@ function updateExpenseList() {
 
   totalExpense.textContent = `Total Expense: $${total.toFixed(2)}`;
 }
-
-// Event listener for adding expense
-expenseForm.addEventListener('submit', addExpense);
 

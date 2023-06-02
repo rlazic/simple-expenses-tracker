@@ -50,4 +50,3 @@ function updateExpenseList() {
 
   totalExpense.textContent = `Total Expense: $${total.toFixed(2)}`;
 }
-
